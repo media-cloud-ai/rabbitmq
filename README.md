@@ -18,12 +18,12 @@ To launch on command with environment variables:
 docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password -e RABBITMQ_DEFAULT_VHOST=my_vhost medialcoudai/rabbitmq:3.8.5 
 ```
 
-## URLs access
+## URLs access
 
 | URL                                 | Description                                                  |
 |-------------------------------------|--------------------------------------------------------------|
 | http://[container IP]:15678/        | Management UI.                                               |
-| http://[container IP]:15692/metrics | Acces to exported metrics. Can be used as prometheus target. |
+| http://[container IP]:15692/metrics | Access to exported metrics. Can be used as prometheus target. |
 
 ## CONFIGURATION
 
