@@ -5,11 +5,11 @@ This repository holds the creation of RabbitMQ's docker image.
 ## But... why?
 
 There's so many docker image allowing to launch RabbitMQ. So, why create another one?
-Because this image will be created with the plugin `rabbitmq_prometheus` enabled and is use by the (Media Cloud AI)[https://media-cloud.ai/] plateform.
+Because this image will be created with the plugin `rabbitmq_prometheus` enabled and is use by the [Media Cloud AI](https://media-cloud.ai/) plateform.
 
 ## Launch
 
-This docker image is based on the official RabbitMQ docker image (rabbitmq:3.8.5-management). So, you could read the (documentation)[https://hub.docker.com/_/rabbitmq] to configure it with environment variables and to launch the container.
+This docker image is based on the official RabbitMQ docker image (rabbitmq:3.8.5-management). So, you could read the [documentation](https://hub.docker.com/_/rabbitmq) to configure it with environment variables and to launch the container.
 
 TL;DR;
 
