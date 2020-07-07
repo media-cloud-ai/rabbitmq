@@ -5,7 +5,7 @@ DOCKER_IMG_NAME?=mediacloudai/rabbitmq
 ifneq ($(DOCKER_REGISTRY), ) 
 	DOCKER_IMG_NAME := /${DOCKER_IMG_NAME}
 endif
-VERSION="3.8.5"
+VERSION="v3.8.5"
 
 ENV?=local
 
