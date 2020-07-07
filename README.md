@@ -13,7 +13,7 @@ This docker image is based on the official RabbitMQ docker image (rabbitmq:3.8.5
 
 TL;DR;
 
-To launch on command with environment variables:
+To launch it using command line with environment variables:
 ```bash
 docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=user -e RABBITMQ_DEFAULT_PASS=password -e RABBITMQ_DEFAULT_VHOST=my_vhost medialcoudai/rabbitmq:3.8.5 
 ```
